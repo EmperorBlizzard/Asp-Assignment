@@ -1,0 +1,396 @@
+.course-details {
+    .header {
+        position: relative;
+
+
+        img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .header-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 500px;
+            background-color: #131022B3;
+
+            .container {
+                width: 300px;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                display: grid;
+                grid-template-rows: auto auto auto;
+                grid-template-areas: "title" "meta" "author";
+                align-items: center;
+                color: white;
+
+                @include sm {
+                    width: 576px;
+                }
+
+                @include md {
+                    width: 768px;
+                }
+
+                @include lg {
+                    width: 992px;
+                }
+
+                @include xl {
+                    width: 1200px;
+                }
+
+                .title {
+                    grid-area: title;
+
+                    .badges {
+                        display: flex;
+                        gap: 1em;
+
+                        .bestseller {
+                            background-color: var(--color-success-dark);
+                            color: var(--color-white);
+                            padding: 4px 12px;
+                            border-radius: 4px;
+                        }
+
+                        .digital {
+                            background-color: #eff2fc;
+                            color: black;
+                            padding: 4px 12px;
+                            border-radius: 4px;
+                        }
+                    }
+
+                    h1 {
+                        color: white;
+                    }
+
+                    .short-description {
+                        @include font-l;
+                        color: #b4b7c9;
+                    }
+                }
+
+                .meta {
+                    grid-area: meta;
+                    display: flex;
+                    color: #b4b7c9;
+
+                    .rating {
+                        display: flex;
+                        gap: 0.3em;
+                        padding-right: 10px;
+                        border-right: 1px solid #b4b7c94D;
+
+                        .stars {
+                            i {
+                                color: var(--color-system-warning);
+                            }
+                        }
+
+                        .reviews {
+                        }
+                    }
+
+                    .likes {
+                        border-right: 1px solid #b4b7c94D;
+                        padding-right: 10px;
+                        padding-left: 10px;
+
+                        .like {
+                        }
+                    }
+
+                    .time {
+                        padding-left: 10px;
+
+                        .hours {
+                        }
+                    }
+                }
+
+
+
+                .author-sm {
+                    grid-area: author;
+                    display: flex;
+                    gap: 1em;
+                    align-items: center;
+
+                    .author-image {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+
+                    author-name {
+                    }
+                }
+            }
+        }
+    }
+
+    .course-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+
+        @include sm {
+            width: 576px;
+        }
+
+        @include md {
+            width: 768px;
+        }
+
+        @include lg {
+            width: 992px;
+        }
+
+        @include xl {
+            width: 1200px;
+        }
+
+        .top-content {
+            display: grid;
+            grid-template-areas: "description" "learn" "include";
+            grid-template-rows: 1fr auto 1fr;
+            gap: 1em;
+
+            @include md {
+                grid-template-areas: "description description" "learn include";
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto 1fr;
+                gap: 1em;
+            }
+
+            @include lg {
+                grid-template-areas: "description include" "learn include";
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .course-descritpion {
+                grid-area: description;
+            }
+
+            .course-learn {
+                grid-area: learn;
+
+                i {
+                    color: var(--color-theme);
+                }
+            }
+
+            .course-include {
+                grid-area: include;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .course-include-container {
+                    border: 1px solid var(--color-gray-300);
+                    border-radius: 8px;
+                    padding: 20px 30px 20px 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .course-include-content {
+
+                        h4 {
+                            margin-bottom: 1em;
+                        }
+
+                        .include-item {
+                            color: var(--color-gray-600);
+                        }
+
+                        .pricing {
+                            display: flex;
+                            align-items: center;
+                            gap: 1rem;
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin-top: 1em;
+
+                            .discount {
+                                @include font-h2;
+                                color: var(--color-black);
+                                font-size: 18px;
+                                font-weight: 600;
+                            }
+
+                            .original {
+                                @include font-h2;
+                                color: var(--color-black);
+                                font-size: 18px;
+                                font-weight: 600;
+                            }
+
+                            .discount-enabled {
+                                @include font-xl;
+                                color: var(--color-gray-600);
+                                text-decoration: line-through;
+                                font-size: 18px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .program-details {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+
+            @include md {
+                width: 60%;
+            }
+
+
+            .program-detail {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                gap: 1em;
+
+                .circle-number {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    border: 8px solid #F3F6FF;
+                }
+
+                .program-detail-text {
+                    @include font-m;
+                }
+            }
+        }
+    }
+
+    .footer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 70px auto;
+
+
+        @include lg {
+            width: 992px;
+        }
+
+        @include xl {
+            width: 1200px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-rows: auto auto;
+            height: auto;
+            max-width: 500px;
+            width: 100%;
+
+            @include lg {
+                max-width: unset;
+                width: 100%;
+                height: 500px;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto;
+            }
+
+            .author-image-big {
+                max-width: 500px;
+                height: 100%;
+                width: 100%;
+
+                @include lg {
+                    max-width: unset;
+                    width: auto;
+                    height: 500px;
+                }
+            }
+
+            .author-info {
+                position: relative;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+
+                .author-pattern {
+                    position: absolute;
+                    object-fit: cover;
+                    background-color: #0B0F19;
+                    z-index: -1;
+                    max-width: 500px;
+                    height: 100%;
+                    width: 100%;
+
+                    @include lg {
+                        max-width: unset;
+                        width: 100%;
+                        height: 500px;
+                    }
+                }
+
+                .author-content {
+                    display: grid;
+                    grid-template-areas: "content" "social";
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1em;
+                    width: 70%;
+                    padding: 1em 0;
+
+                    .author-description {
+                        grid-area: content;
+
+
+                        .author-description-top-text {
+                            @include font-xl;
+                        }
+
+                        .author-name {
+                            color: white;
+                        }
+
+                        .author-description-text {
+                            @include font-m;
+                        }
+                    }
+
+                    .author-social-media {
+                        grid-area: social;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2em;
+
+                        @include md {
+                            flex-direction: row;
+                        }
+
+                        .social-media-btn-container {
+                            a {
+                                width: 210px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

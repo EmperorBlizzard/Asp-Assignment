@@ -1,0 +1,72 @@
+﻿@model SignUpForm
+
+@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<section class="sign-up">
+    <div class="container">
+        <div class="text">
+            <h1>Create Account</h1>
+            <span class="alredy-have-an-account">Already have an account? <a asp-action="SignIn" asp-controller="Auth">Sign in here.</a></span>
+        </div>
+        <form class="signup-form" method="post" asp-action="SignUp" asp-controller="Auth">
+
+            <div class="alert">
+                @ViewData["StatusMessage"]
+            </div>
+
+            <div class="form-firstname input-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" />
+                <span asp-validation-for="FirstName"></span>
+            </div>
+            <div class="form-lastname input-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" />
+                <span asp-validation-for="LastName"></span>
+            </div>
+            <div class="form-email input-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="form-password input-group">
+                <label asp-for="Password"></label>
+                <input id="Password" asp-for="Password" />
+                <i class="fa-solid fa-eye show-password"></i>
+                <div class="password-checklist">
+                    <h3 class="checklist-title">Password should be</h3>
+
+                    <ul class="checklist">
+                        <li class="list-item">At least 8 character long</li>
+                        <li class="list-item">At least 1 number</li>
+                        <li class="list-item">At least 1 lowercase letter</li>
+                        <li class="list-item">At least 1 uppercase letter</li>
+                        <li class="list-item">At least 1 special character</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input-confirm-group">
+                <div class="form-confirm input-group">
+                    <label asp-for="ConfirmPassword"></label>
+                    <input id="Confirm" asp-for="ConfirmPassword" />
+                    <i class="fa-solid fa-eye show-confirmpassword"></i>
+                </div>
+                <span asp-validation-for="ConfirmPassword"></span>
+            </div>
+
+            <div class="checkbox-group">
+                <div class="form-terms input-group">
+                    <input asp-for="TermsAndConditions" />
+                    <label asp-for="TermsAndConditions">
+                        I agree to the <a asp-action="TermsAndConditions" asp-controller="About">Terms</a> & <a asp-action="TermsAndConditions" asp-controller="About">Conditions</a>
+                    </label>
+                </div>
+                <span asp-validation-for="TermsAndConditions"></span>
+            </div>
+
+            <button class="btn btn-theme" type="submit">Sign Up</button>
+        </form>
+    </div>
+</section>

@@ -1,0 +1,98 @@
+.account-details {
+    .container {
+        display: grid;
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "basic" "address";
+        justify-content: center;
+        gap: 1em;
+        width: 100%;
+
+        h2 {
+            grid-area: header;
+        }
+
+        .basic-info {
+            grid-area: basic;
+            border-bottom: 1px solid var(--color-gray-300);
+            padding: 30px 0;
+
+            h5 {
+                color: var(--color-theme);
+            }
+
+            .basic-info-form {
+                gap: 20px;
+                grid-template-areas: "alert alert" "firstname lastname" "email email" "phone phone" "bio bio" "button button";
+
+                .alert {
+                    grid-area: alert;
+                }
+
+                .form-firstname {
+                    grid-area: firstname;
+                }
+
+                .form-lastname {
+                    grid-area: lastname;
+                }
+
+                .form-email {
+                    grid-area: email;
+                }
+
+                .form-phone {
+                    grid-area: phone;
+                }
+
+                .form-bio {
+                    grid-area: bio;
+                }
+
+                .submit-buttons {
+                    grid-area: button;
+                    display: flex;
+                    gap: 1em;
+                    width: 50%;
+                }
+            }
+        }
+
+        .address-info {
+            grid-area: address;
+
+            h5 {
+                color: var(--color-theme);
+            }
+
+            .address-info-form {
+                grid-template-areas: "alert alert" "addressOne addressOne" "addressTwo addressTwo" "postalCode city" "button button";
+                gap: 20px;
+
+
+                .form-addressone {
+                    grid-area: addressOne;
+                }
+
+                .form-addresstwo {
+                    grid-area: addressTwo;
+                }
+
+                .form-postalcode {
+                    grid-area: postalCode;
+                }
+
+                .form-city {
+                    grid-area: city;
+                }
+
+                .submit-buttons {
+                    grid-area: button;
+                    display: flex;
+                    gap: 1em;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

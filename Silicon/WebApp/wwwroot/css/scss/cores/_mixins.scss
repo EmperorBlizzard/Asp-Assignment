@@ -1,0 +1,112 @@
+@mixin standard-text {
+    line-height: 160%;
+    font-weight: 400;
+    color: var(--color-gray-700);
+    font-family: var(--font-standard);
+}
+
+@mixin standard-heading {
+    @include standard-text;
+    font-weight: 800;
+    color: var(--color-gray-900)
+}
+
+@mixin font-nav {
+    @include standard-text;
+    font-size: 1em;
+    color: var(--color-gray-800);
+    font-weight: 600;
+}
+
+
+@mixin font-d1 {
+    @include standard-heading;
+    font-size: 5em !important;
+}
+
+@mixin font-d2 {
+    @include standard-heading;
+    font-size: 4.5em !important;
+}
+
+@mixin font-d3 {
+    @include standard-heading;
+    font-size: 4em !important;
+}
+
+@mixin font-d4 {
+    @include standard-heading;
+    font-size: 3.5em !important;
+}
+
+@mixin font-d5 {
+    @include standard-heading;
+    font-size: 3em !important;
+}
+
+@mixin font-d6 {
+    @include standard-heading;
+    font-size: 2.625em !important;
+}
+
+@mixin font-h1 {
+    @include standard-heading;
+    font-size: 2.5em !important;
+}
+
+@mixin font-h2 {
+    @include standard-heading;
+    font-size: 2em !important;
+}
+
+@mixin font-h3 {
+    @include standard-heading;
+    font-size: 1.75em !important;
+}
+
+
+@mixin font-h4 {
+    @include standard-heading;
+    font-size: 1.5em !important;
+}   
+
+@mixin font-h5 {
+    @include standard-heading;
+    font-size: 1.25em !important;
+}
+
+@mixin font-h6 {
+    @include standard-heading;
+    font-size: 1em !important;
+}
+
+@mixin font-lead {
+    @include standard-text;
+    font-size: 1.5em !important;
+}
+
+@mixin font-xl {
+    @include standard-text;
+    font-size: 1.25em !important;
+}
+
+@mixin font-l {
+    @include standard-text;
+    font-size: 1.125em !important;
+}
+
+@mixin font-m {
+    @include standard-text;
+    font-size: 1em !important;
+}
+
+@mixin font-s {
+    @include standard-text;
+    font-size: 0.875em !important;
+}
+
+@mixin font-xs {
+    @include standard-text;
+    font-size: 0.75em !important;
+}
+

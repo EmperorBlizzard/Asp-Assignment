@@ -1,0 +1,17 @@
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\bin\Debug\net8.0\Data.deps.json
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\bin\Debug\net8.0\Data.dll
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\bin\Debug\net8.0\Data.pdb
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\bin\Debug\net8.0\Infrastructure.dll
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\bin\Debug\net8.0\Infrastructure.pdb
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.csproj.Up2Date
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.dll
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\refint\Data.dll
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.pdb
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+C:\Skola\Asp-dotnet\Assignment\Studio\EmailApi\Silicon.WebApi\Data\obj\Debug\net8.0\ref\Data.dll

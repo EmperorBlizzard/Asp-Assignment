@@ -1,0 +1,22 @@
+.features {
+  background-color: var(--color-gray-100);
+  padding: 50px 0;
+
+  .container {
+    text-align: center;
+    
+    .tool-features {
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: 1fr;
+
+      @include md{
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @include xl {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+  }
+}

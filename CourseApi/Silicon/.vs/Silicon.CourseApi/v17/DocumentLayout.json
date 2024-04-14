@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0917D5DF-B9DF-4E6F-8CA7-05EA80739713}|WebApp.CourseApi\\WebApp.CourseApi.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\courseapi\\silicon\\webapp.courseapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0917D5DF-B9DF-4E6F-8CA7-05EA80739713}|WebApp.CourseApi\\WebApp.CourseApi.csproj|solutionrelative:webapp.courseapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\courseapi\\silicon\\infrastructure\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entities\\categoryentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\courseapi\\silicon\\infrastructure\\factories\\categoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\factories\\categoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\courseapi\\silicon\\infrastructure\\entities\\courseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entities\\courseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\courseapi\\silicon\\infrastructure\\models\\onecourseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\onecourseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\courseapi\\silicon\\infrastructure\\factories\\courselearnfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C66BE4EC-AF1A-4322-8445-12580AD779B0}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\factories\\courselearnfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryEntity.cs",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Entities\\CategoryEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Entities\\CategoryEntity.cs",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Entities\\CategoryEntity.cs",
+              "RelativeToolTip": "Infrastructure\\Entities\\CategoryEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:29:51.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryFactory.cs",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Factories\\CategoryFactory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Factories\\CategoryFactory.cs",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Factories\\CategoryFactory.cs",
+              "RelativeToolTip": "Infrastructure\\Factories\\CategoryFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:29:48.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseLearnFactory.cs",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Factories\\CourseLearnFactory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Factories\\CourseLearnFactory.cs",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Factories\\CourseLearnFactory.cs",
+              "RelativeToolTip": "Infrastructure\\Factories\\CourseLearnFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T13:48:27.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OneCourseResult.cs",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Models\\OneCourseResult.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Models\\OneCourseResult.cs",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Models\\OneCourseResult.cs",
+              "RelativeToolTip": "Infrastructure\\Models\\OneCourseResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T13:26:29.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseEntity.cs",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Entities\\CourseEntity.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Entities\\CourseEntity.cs",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\Infrastructure\\Entities\\CourseEntity.cs",
+              "RelativeToolTip": "Infrastructure\\Entities\\CourseEntity.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T13:26:19.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\WebApp.CourseApi\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "WebApp.CourseApi\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\CourseApi\\Silicon\\WebApp.CourseApi\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "WebApp.CourseApi\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T11:07:19.081Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

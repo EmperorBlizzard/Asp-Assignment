@@ -1,0 +1,131 @@
+.app-downloads {
+  background-color: var(--color-gray-100);
+  padding: 50px 0;
+  .container {
+    display: grid;
+    grid-template-areas: "preview" "content";
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    @include lg {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "preview content";
+    }
+
+    .app-preview-img {
+      grid-area: preview;
+      width: 300px;
+      height: auto;
+
+      @include lg {
+        width: 400px;
+      }
+
+      @include xl {
+        width: 500px;
+      }
+
+      @include xxl {
+        width: 600px;
+      }
+    }
+
+    .app-download-content {
+      width: 250px;
+      grid-area: content;
+      display: grid;
+      grid-template-areas: "text" "appstore" "googleplay";
+      gap: 20px;
+      text-align: center;
+
+      @include sm {
+        grid-template-areas: "text text" "appstore googleplay";
+        width: 400px;
+      }
+
+      @include lg {
+        grid-template-areas: "text" "appstore" "googleplay";
+        width: 400px;
+      }
+
+      .app-h1 {
+        grid-area: text;
+      }
+
+      .appstore-container {
+        grid-area: appstore;
+
+        display: grid;
+        grid-template-areas: "content" "link";
+        @include lg {
+          grid-template-areas: "content link";
+        }
+        .appstore {
+          grid-area: content;
+          .store-name {
+            @include font-m;
+            color: var(--color-gray-600);
+          }
+
+          .app-star-rating {
+            i {
+              color: var(--color-system-warning);
+            }
+          }
+          
+          .rating-text {
+            @include font-m;
+            color: var(--color-gray-700);
+          }
+        }
+
+        .appstore-link-img {
+          grid-area: link;
+          @include lg {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+          }
+        }
+      }
+
+      .googleplay-container {
+        grid-area: googleplay;
+        
+        display: grid;
+        grid-template-areas: "content" "link";
+        @include lg {
+          grid-template-areas: "content link";
+        }
+        
+        .googleplay {
+          grid-area: content;
+          .store-name {
+            @include font-m;
+            color: var(--color-gray-600);
+          }
+
+          .app-star-rating {
+            i {
+             color: var(--color-system-warning); 
+            }
+          }
+
+          .rating-text {
+            @include font-m;
+            color: var(--color-gray-700);
+          }
+        }
+        .googleplay-link-img {
+          grid-area: link;
+          @include lg {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+          }
+        }
+      }
+    }
+  }
+}

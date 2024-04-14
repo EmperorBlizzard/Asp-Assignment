@@ -1,0 +1,43 @@
+﻿@{
+    var theme = Context.Request.Cookies["Theme"] ?? "light";
+
+    var isDarkMode = (theme == "dark") ? true : false;
+}
+
+<!DOCTYPE html>
+<html lang="en" class="@theme">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApp</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="wrapper">
+        <partial name="~/Views/Partials/_Header.cshtml" />
+        <section class="account">
+            <div class="container">
+                <aside>
+                    <partial name="~/Views/Account/_AccountProfile.cshtml"/>
+
+                    <nav class="account-nav">
+                        <a class="btn btn-nav @Html.ActiveClass("Account", "Details")" asp-action="Details" asp-controller="Account"><i class="fa-regular fa-cog"></i> Account Details</a>
+                        <a class="btn btn-nav @Html.ActiveClass("Account", "Security")" asp-action="Security" asp-controller="Account"><i class="fa-regular fa-lock"></i> Security</a>
+                        <a class="btn btn-nav" asp-action="SignOut" asp-controller="Auth"><i class="fa-regular fa-arrow-left-from-bracket"></i>Sign Out</a>
+                    </nav>
+                </aside>
+                <main>
+                    @RenderBody()
+                </main>
+            </div>
+        </section>
+        <partial name="~/Views/Partials/_Footer.cshtml" />
+    </div>
+
+    <script src="https://kit.fontawesome.com/a041cc045c.js" crossorigin="anonymous" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/signupValidation.js" asp-append-version="true"></script>
+    <script src="~/js//validation.js"></script>
+    <partial name="_CookieConsent" />
+</body>
+</html>

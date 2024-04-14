@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\_components.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\_cores.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\_cores.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\_sections.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\_sections.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\components\\_alerts.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_alerts.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\components\\_boxes.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_boxes.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\components\\_links.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_links.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\components\\_switch.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_switch.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\cores\\_common.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_common.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\cores\\_fonts.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\cores\\_media.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_media.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\cores\\_mixins.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\cores\\_typography.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\cores\\_variables.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-avatar.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account-avatar.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-details.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account-details.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-security.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account-security.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_appdownload.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_appdownload.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_contact.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_cookieconsent.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_cookieconsent.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_coursedetails.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_coursedetails.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_courses.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_courses.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_error_notfound.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_error_notfound.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_features.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_features.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_footer.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_header.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_header.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_learnmore.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_learnmore.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_modepreview.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_modepreview.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_pagination.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_showcase.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_showcase.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_signin.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_signin.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_signup.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_signup.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_subscribe.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_subscribe.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\scss\\sections\\_tools.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_tools.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\site.css.map",
+      "PackagePath": "staticwebassets\\css\\site.css.map"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\css\\site.scss",
+      "PackagePath": "staticwebassets\\css\\site.scss"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\Silicon_logotype-dark.svg",
+      "PackagePath": "staticwebassets\\images\\Silicon_logotype-dark.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\Silicon_logotype-light.svg",
+      "PackagePath": "staticwebassets\\images\\Silicon_logotype-light.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\brands\\logoipsum-four.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\logoipsum-four.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\brands\\logoipsum-one.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\logoipsum-one.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\brands\\logoipsum-three.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\logoipsum-three.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\brands\\logoipsum-two.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\logoipsum-two.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\contact\\Map.svg",
+      "PackagePath": "staticwebassets\\images\\contact\\Map.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\author\\author_profile.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\author\\author_profile.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\author\\pattern.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\author\\pattern.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_1.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_1.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_1_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_1_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_2.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_2.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_2_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_2_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_3.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_3.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_3_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_3_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_4.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_4.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_4_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_4_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_5.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_5.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_5_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_5_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_6.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_6.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_6_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_6_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_7.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_7.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_7_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_7_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_8.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_8.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_8_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_8_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_9.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_9.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\courses\\course_9_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_9_big.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\dark-light-mode-preview\\dark-mode.svg",
+      "PackagePath": "staticwebassets\\images\\dark-light-mode-preview\\dark-mode.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\dark-light-mode-preview\\light-mode.svg",
+      "PackagePath": "staticwebassets\\images\\dark-light-mode-preview\\light-mode.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\dark-light-mode-preview\\slider.svg",
+      "PackagePath": "staticwebassets\\images\\dark-light-mode-preview\\slider.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\error\\404.svg",
+      "PackagePath": "staticwebassets\\images\\error\\404.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\icons\\add-group.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\add-group.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\icons\\bell.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\bell.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\icons\\comments.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\comments.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\icons\\shield.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\shield.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\icons\\tasks.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\tasks.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\icons\\test.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\test.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\learnmore\\learn-more.svg",
+      "PackagePath": "staticwebassets\\images\\learnmore\\learn-more.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\phoneApp\\appImage.svg",
+      "PackagePath": "staticwebassets\\images\\phoneApp\\appImage.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\phoneApp\\appstore-dark.svg",
+      "PackagePath": "staticwebassets\\images\\phoneApp\\appstore-dark.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\phoneApp\\appstore-light.svg",
+      "PackagePath": "staticwebassets\\images\\phoneApp\\appstore-light.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\phoneApp\\googleplay-dark.svg",
+      "PackagePath": "staticwebassets\\images\\phoneApp\\googleplay-dark.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\phoneApp\\googleplay-light.svg",
+      "PackagePath": "staticwebassets\\images\\phoneApp\\googleplay-light.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\subscribe\\arrows.svg",
+      "PackagePath": "staticwebassets\\images\\subscribe\\arrows.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\taskmaster\\taskmaster-twisted.svg",
+      "PackagePath": "staticwebassets\\images\\taskmaster\\taskmaster-twisted.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\tools-icons\\Dropbox.svg",
+      "PackagePath": "staticwebassets\\images\\tools-icons\\Dropbox.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\tools-icons\\Evernote.svg",
+      "PackagePath": "staticwebassets\\images\\tools-icons\\Evernote.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\tools-icons\\Google.svg",
+      "PackagePath": "staticwebassets\\images\\tools-icons\\Google.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\tools-icons\\MailChimp.svg",
+      "PackagePath": "staticwebassets\\images\\tools-icons\\MailChimp.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\tools-icons\\Slack.svg",
+      "PackagePath": "staticwebassets\\images\\tools-icons\\Slack.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\tools-icons\\Trello.svg",
+      "PackagePath": "staticwebassets\\images\\tools-icons\\Trello.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\tools-icons\\Zoom.svg",
+      "PackagePath": "staticwebassets\\images\\tools-icons\\Zoom.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\images\\tools-icons\\gmail.svg",
+      "PackagePath": "staticwebassets\\images\\tools-icons\\gmail.svg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\js\\signupValidation.js",
+      "PackagePath": "staticwebassets\\js\\signupValidation.js"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\js\\validation.js",
+      "PackagePath": "staticwebassets\\js\\validation.js"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\uploads\\avatar.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\uploads\\p_68325d80-2d20-4e3c-abc2-0de3a58464b7_0e725291-ae50-45ef-9977-eee356a7535d_.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\p_68325d80-2d20-4e3c-abc2-0de3a58464b7_0e725291-ae50-45ef-9977-eee356a7535d_.jpeg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\uploads\\p_68325d80-2d20-4e3c-abc2-0de3a58464b7_56b1a9ac-25b1-4c76-ab5d-db3fd6b3b252_.jpg",
+      "PackagePath": "staticwebassets\\uploads\\p_68325d80-2d20-4e3c-abc2-0de3a58464b7_56b1a9ac-25b1-4c76-ab5d-db3fd6b3b252_.jpg"
+    },
+    {
+      "Id": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\SIlicon\\WebApp\\wwwroot\\uploads\\p_68325d80-2d20-4e3c-abc2-0de3a58464b7_96850211-5e23-4590-8db3-e68613db3763_.jpg",
+      "PackagePath": "staticwebassets\\uploads\\p_68325d80-2d20-4e3c-abc2-0de3a58464b7_96850211-5e23-4590-8db3-e68613db3763_.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApp.props",
+      "PackagePath": "build\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApp.props",
+      "PackagePath": "buildTransitive\\WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

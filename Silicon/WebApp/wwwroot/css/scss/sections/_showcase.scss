@@ -1,0 +1,76 @@
+.showcase{
+  position: relative;
+  padding-bottom: 100px;
+
+  .container {
+
+    .showcase-image{
+      position: absolute;
+      width: 350px;
+      right: 0;
+
+      @include md {
+          width:400px;
+      }
+
+      @include lg {
+        width: 550px;
+      }
+
+      @include xl {
+        width: 650px;
+      }
+
+      @include xxl {
+        width: 750px;
+      }
+    }
+
+    .content{
+      padding-top: 360px;
+      text-align: center;
+
+      @include md {
+        padding-top: 20px;
+        text-align: left;
+        width: 50%;
+      }
+      @include lg {
+        padding-top: 45px;
+        width: 45%;
+      }
+
+      @include xl {
+        padding-top: 55px;
+        width: 45%;
+      }
+
+      @include xxl {
+        padding-top: 200px;
+        text-align: center;
+        width: 45%;
+      }
+
+
+      .get-started{
+        margin: 50px 0;
+      }
+
+      .brands {
+        text-align: center;
+        position: static;
+        width: 100%;
+
+        @include md {
+          position: relative;
+          width: 200%;
+        }
+        @include lg{
+          position: static;
+          width: 100%;
+        }
+      }
+    }
+  }
+  
+}

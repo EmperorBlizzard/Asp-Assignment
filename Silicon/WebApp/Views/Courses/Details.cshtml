@@ -1,0 +1,138 @@
+﻿@model CourseDetailsViewModel
+
+@{
+    ViewData["Title"] = "Coures Details";
+}
+
+<section class="course-details">
+    <div class="header">
+        <img class="course-image" src="~/images/courses/@(Model.Course.BigImageUrl).svg" alt="Course Img" />
+    
+        <div class="header-content">
+            <div class="container">
+                <div class="title">
+                    <div class="badges">
+                        @if (Model.Course.IsBestseller)
+                        {
+                            <div class="bestseller">Best Seller</div>
+                        }
+                        @if (Model.Course.IsDigital)
+                        {
+                            <div class="digital">Digital</div>
+                        }
+                    </div>
+                    <h1>@Model.Course.Titel</h1>
+                    <p class="short-description">@Model.CourseDescription.ShortDescription</p>
+                </div>
+                <div class="meta">
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <p class="reviews">(1.2K reviews)</p>
+                    </div>
+                    <div class="likes">
+                        <p class="like"><i class="fa-regular fa-thumbs-up"></i> @Model.Course.LikesInNumbers</p>
+                    </div>
+                    <div class="time">
+                        <p class="hours"><i class="fa-regular fa-clock"></i> @Model.Course.Hours</p>
+                    </div>
+                </div>
+                <div class="author-sm">
+                    <img class="author-image" src="~/images/courses/author/@(Model.AuthorDescription.AuthorImage).svg" alt="Author Image" />
+                    <div class="author-name">
+                        <p>Created by</p>
+                        <p>@Model.Course.Author</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="course-content">
+        <div class="top-content">
+            <div class="course-descritpion">
+                <h1>Course Description</h1>
+                <p>@Model.CourseDescription.LongDescription</p>
+            </div>
+            <div class="course-learn">
+                <h3>What you'll learn</h3>
+                @if (Model.Learn != null)
+                {
+                    @foreach (var learn in Model.Learn)
+                    {
+                        <p class="learn-item"><i class="fa-regular fa-circle-check"></i> @learn.LearnText</p>
+                    }
+                }
+            </div>
+
+            <div class="course-include">
+                <div class="course-include-container">
+                    <div class="course-include-content">
+                        <h4>This course includes:</h4>
+                        @if (Model.Includes != null)
+                        {
+                            @foreach (var include in Model.Includes)
+                            {
+                                <p class="include-item"><i class="@include.IncludeIcon"></i> @include.IncludeText</p>
+                            }
+                        }
+
+                        <div class="pricing">
+                            @if (!string.IsNullOrEmpty(Model.Course.DiscountPrice))
+                            {
+                                <div class="discount">@Model.Course.DiscountPrice</div>
+                            }
+                            <div class="original @(!string.IsNullOrEmpty(Model.Course.DiscountPrice) ? "discount-enabled" : null)">@Model.Course.OriginalPrice</div>
+                        </div>
+                        <button class="btn btn-theme">Join course</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="program-details">
+            <h1>Program Details</h1>
+            @if(Model.ProgramDetails != null)
+            {
+                @foreach(var programDetail in Model.ProgramDetails)
+                {
+                    <div class ="program-detail">
+                        <div class="circle-number">@programDetail.Id</div>
+                        <div class="program-detail-text">
+                            <h4>@programDetail.ProgramHeader</h4>
+                            <p>@programDetail.ProgramDescription</p>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <img class="author-image-big" src="~/images/courses/author/@(Model.AuthorDescription.AuthorImage).svg" alt="Author Image" />
+            <div class=" author-info">
+                <img class="author-pattern" src="~/images/courses/author/pattern.svg" alt="Alternate Text" />
+                <div class="author-content">
+                    <div class="author-description">
+                        <p class="author-description-top-text">Learn from the best</p>
+                        <h1 class="author-name">@Model.Course.Author</h1>
+                        <p class="author-description-text">@Model.AuthorDescription.AuthorDescription</p>
+                    </div>
+                    <div class="author-social-media">
+                        <div class="social-media-btn-container">
+                            <a class="btn btn-youtube" asp-action="Youtube" asp-controller="Course"><i class="fa-brands fa-youtube"></i> @Model.AuthorDescription.AuthorYouTubeSubscribers</a>
+                        </div>
+                        <div class="social-media-btn-container">
+                            <a class="btn btn-facebook" asp-action="Facebook" asp-controller="Course"><i class="fa-brands fa-square-facebook"></i> @Model.AuthorDescription.AuthorFacebookFollowers</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,43 @@
+h1{
+  @include font-h1;
+}
+h2 {
+  @include font-h2;
+}
+h3 {
+  @include font-h3;
+}
+h4 {
+  @include font-h4;
+}
+h5 {
+  @include font-h5;
+}
+h6 {
+  @include font-h6;
+}
+
+.display-1 {
+    @include font-d1;
+}
+
+.display-2 {
+    @include font-d2;
+}
+
+.display-3 {
+    @include font-d3;
+}
+
+.display-4 {
+    @include font-d4;
+}
+
+.display-5 {
+    @include font-d5;
+}
+
+.display-6 {
+    @include font-d6;
+}
+

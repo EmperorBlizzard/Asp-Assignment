@@ -1,0 +1,48 @@
+﻿@{
+    var theme = Context.Request.Cookies["Theme"] ?? "light";
+
+    var isDarkMode = (theme == "dark") ? true : false;
+}
+
+<section class="app-downloads">
+    <div class="container">
+        <img class="app-preview-img" src="./images/phoneApp/appImage.svg" alt="image of phone app">
+        <div class="app-download-content">
+            <h1 class="app-h1">Download Our App for Any Devices:</h1>
+            <div class="appstore-container">
+                <div class="appstore">
+                    <p class="store-name">App Store</p>
+                    <div class="app-star-rating">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <h4>Editor's Choice</h4>
+                    <p class="rating-text">rating 4.7, 187K+ reviews</p>
+                </div>
+                <div class="appstore-link-img">
+                    <img src="./images/phoneApp/appstore-@(theme).svg" alt="app store">
+                </div>
+            </div>
+            <div class="googleplay-container">
+                <div class="googleplay">
+                    <p class="store-name">Google play</p>
+                    <div class="app-star-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>App of the Day</h4>
+                    <p class="rating-text">rating 4.8, 30K+ reviews</p>
+                </div>
+                <div class="googleplay-link-img">
+                    <img src="./images/phoneApp/googleplay-@(theme).svg" alt="Google play">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

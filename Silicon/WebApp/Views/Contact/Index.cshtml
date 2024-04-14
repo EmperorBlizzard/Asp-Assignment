@@ -1,0 +1,84 @@
+﻿@model ContactForm 
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<section class="contact">
+    <div class="container">
+        <div class="contact-content">
+            <div class="contact-us">
+                <h1>Contact Us</h1>
+                
+                <div class="contact-options">
+                    <div class="contact-option">
+                        <div class="icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Email us</h5>
+                            <p>Please feel free to drop us a line. We will respond as soon as possible.</p>
+                            <a>Leave a message <i class="fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-option">
+                        <div class="icon">
+                            <i class="fa-regular fa-users-medical"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Careers</h5>
+                            <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.</p>
+                            <a>Send an application <i class="fa-regular fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-container">
+                <h2>Get In Contact With Us</h2>
+                <form class="contact-form" method="post" asp-action="TakeContact" asp-controller="Contact">
+                    <div class="alert">
+                        @ViewData["StatusMessage"]
+                    </div>
+
+                    <div class="input-group form-fullname">
+                        <label asp-for="FullName"></label>
+                        <input id="inputFull" asp-for="FullName" />
+                    </div>
+                    <div class="input-group form-email">
+                        <label asp-for="Email"></label>
+                        <input asp-for="Email" />
+                    </div>
+                    <div class="form-service">
+                        <span class="service">Services (optional)</span>
+                        <div id="contact-select" class="select">
+                            <div id="contact-selected" class="selected">Choose the service you are interested in</div>
+                            <div id="contact-select-options" class="select-options">
+                                <div id="contact-option" class="option" data-value="none">Choose the service you are interested in</div>
+                                @if (Model.Services != null)
+                                {
+                                    @foreach (var service in Model.Services)
+                                    {
+                                        <div id="contact-option" class="option" data-value="@service.ServiceName">@service.ServiceName</div>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <input class="input-service" asp-for="Service" hidden/>
+
+                    <div class="input-group form-message">
+                        <label asp-for="Message"></label>
+                        <textarea asp-for="Message" ></textarea>
+                    </div>
+
+                    <button class="btn btn-theme" type="submit">Send Contact Request</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    <div class="map">
+        <img src="~/images/contact/Map.svg" alt="Map" />
+    </div>
+</section>

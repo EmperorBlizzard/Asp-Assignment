@@ -1,0 +1,113 @@
+.contact {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+
+    .container {
+        .contact-content {
+            display: grid;
+            justify-content: center;
+            grid-template-areas: "text" "form";
+            gap: 1em;
+
+            @include lg {
+                grid-template-areas: "text form";
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .contact-us {
+                grid-area: text;
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+
+                @include lg {
+                    width: 60%;
+                }
+
+                .contact-options {
+                    display: flex;
+                    justify-content: center;
+                    gap: 1em;
+
+                    @include lg {
+                        flex-direction: column;
+                    }
+
+                    .contact-option {
+                        display: flex;
+                        gap: 2em;
+                        justify-content: center;
+
+                        .icon {
+                            margin-top: 1em;
+                            color: var(--color-theme);
+                        }
+
+                        .text {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1em;
+                        }
+                    }
+                }
+            }
+
+            .form-container {
+                display: grid;
+                grid-area: form;
+                border: 1px solid var(--color-gray-300);
+                border-radius: 8px;
+                padding: 20px 30px;
+                justify-content: center;
+                align-items: center;
+                justify-self: center;
+
+                @include lg {
+                    justify-self: end;
+                }
+
+                .contact-form {
+                    grid-template-areas: "alert" "fullname" "email" "service" "message" "btn";
+                    gap: 1em;
+
+
+
+                    .alert {
+                        grid-area: alert;
+                    }
+
+                    .form-fullname {
+                        grid-area: fullname;
+                    }
+
+                    .form-email {
+                        grid-area: email;
+                    }
+
+                    .form-service {
+                        grid-area: service;
+                    }
+
+                    .form-message {
+                        grid-area: message;
+                    }
+
+                    .btn {
+                        grid-area: btn;
+                    }
+                }
+            }
+        }
+    }
+
+    .map {
+        margin-top: 1em;
+        z-index: -1;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.account-security {
+    .container {
+        display: grid;
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "password" "delete";
+        justify-content: center;
+        gap: 1em;
+        width: 100%;
+
+        h2 {
+            grid-area: header;
+        }
+
+        .change-password {
+            grid-area: password;
+            display: grid;
+            border-bottom: 1px solid var(--color-gray-300);
+            padding: 30px 0;
+
+            .change-password-form {
+                grid-template-areas: "alert alert" "current void" "new confirmNew" "button button";
+                gap: 20px;
+
+                .alert {
+                    grid-area: alert;
+                }
+
+                .form-current {
+                    grid-area: current;
+                }
+
+                .form-new {
+                    grid-area: new;
+                }
+
+                .form-newconfirm {
+                    grid-area: confirmNew;
+                }
+
+                .submit-buttons {
+                    grid-area: button;
+                    display: flex;
+                    gap: 1em;
+                    width: 50%;
+                }
+            }
+        }
+
+        .deleteAccount {
+            grid-area: delete;
+
+            .text {
+            }
+
+            .delete-account-form {
+                grid-template-areas: "alert" "confirm" "button";
+                gap: 20px;
+
+                .alert {
+                    grid-area: alert;
+                }
+
+                .form-confirm-delete {
+                    grid-area: confirm;
+                }
+
+                button {
+                    grid-area: button;
+
+                    width: 15%;
+                }
+            }
+        }
+    }
+}
