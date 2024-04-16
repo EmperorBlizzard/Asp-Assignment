@@ -165,5 +165,53 @@
                 }
             }
         }
+
+        .work-with-us {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            background-color: var(--color-gray-100);
+            border-radius: 8px;
+            gap: 1em;
+            width: 100%;
+
+            @include lg {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+            }
+
+            .work-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1em;
+                width: 80%;
+
+                p {
+                    @include font-lead;
+                }
+
+                .work-button {
+                    width: 100%;
+
+                    @include lg {
+                        width: 30%;
+                    }
+                }
+            }
+
+            .work-img {
+                width: 300px;
+
+                @include md {
+                    width: 400px;
+                }
+
+                @include lg {
+                    width: 500px;
+                }
+            }
+        }
     }
 }

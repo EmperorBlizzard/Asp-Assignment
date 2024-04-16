@@ -23,7 +23,7 @@
 
             .basic-info-form {
                 gap: 20px;
-                grid-template-areas: "alert alert" "firstname lastname" "email email" "phone phone" "bio bio" "button button";
+                grid-template-areas: "alert alert" "firstname lastname" "email phone" "bio bio" "button button";
 
                 .alert {
                     grid-area: alert;

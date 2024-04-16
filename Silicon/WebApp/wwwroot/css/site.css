@@ -1700,6 +1700,57 @@ footer .container .copyright span {
 .courses .container .items .course .content .footer .likes i {
   margin-right: 5px;
 }
+.courses .container .work-with-us {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: var(--color-gray-100);
+  border-radius: 8px;
+  gap: 1em;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .courses .container .work-with-us {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+.courses .container .work-with-us .work-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  width: 80%;
+}
+.courses .container .work-with-us .work-content p {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-size: 1.5em !important;
+}
+.courses .container .work-with-us .work-content .work-button {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .courses .container .work-with-us .work-content .work-button {
+    width: 30%;
+  }
+}
+.courses .container .work-with-us .work-img {
+  width: 300px;
+}
+@media (min-width: 768px) {
+  .courses .container .work-with-us .work-img {
+    width: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .courses .container .work-with-us .work-img {
+    width: 500px;
+  }
+}
 
 .course-details .header {
   position: relative;
@@ -2185,7 +2236,7 @@ footer .container .copyright span {
 }
 .account-details .container .basic-info .basic-info-form {
   gap: 20px;
-  grid-template-areas: "alert alert" "firstname lastname" "email email" "phone phone" "bio bio" "button button";
+  grid-template-areas: "alert alert" "firstname lastname" "email phone" "bio bio" "button button";
 }
 .account-details .container .basic-info .basic-info-form .alert {
   grid-area: alert;

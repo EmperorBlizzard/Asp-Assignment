@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\views\\partials\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_courses.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_courses.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B75434EA-90ED-48A8-95C5-A2440E243497}|Infrastructure\\Infrastructure.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\infrastructure\\filters\\checkboxrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B75434EA-90ED-48A8-95C5-A2440E243497}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\filters\\checkboxrequired.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_contact.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_contact.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B75434EA-90ED-48A8-95C5-A2440E243497}|Infrastructure\\Infrastructure.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\infrastructure\\models\\allowdeletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B75434EA-90ED-48A8-95C5-A2440E243497}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\allowdeletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_account-details.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_account-details.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\views\\account\\_accountprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\account\\_accountprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\wwwroot\\css\\scss\\sections\\_account-avatar.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\sections\\_account-avatar.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\views\\account\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\account\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\wwwroot\\css\\scss\\components\\_buttons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\components\\_buttons.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\wwwroot\\css\\scss\\cores\\_fonts.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\cores\\_fonts.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|c:\\skola\\asp-dotnet\\assignment\\studio\\silicon\\webapp\\wwwroot\\css\\scss\\components\\_forms.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{DE5A7D7A-3CF3-4692-AC0A-612029A508BD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\components\\_forms.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,51 +87,177 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Partials\\_Header.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\_Header.cshtml",
-              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Partials\\_Header.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Partials\\_Header.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Title": "_courses.scss",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_courses.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_courses.scss",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_courses.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_courses.scss",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAAK8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-16T08:33:34.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF4AAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T12:56:40.321Z",
+              "WhenOpened": "2024-04-16T08:30:48.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CheckboxRequired.cs",
-              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\Infrastructure\\Filters\\CheckboxRequired.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Filters\\CheckboxRequired.cs",
-              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\Infrastructure\\Filters\\CheckboxRequired.cs",
-              "RelativeToolTip": "Infrastructure\\Filters\\CheckboxRequired.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Title": "_contact.scss",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_contact.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_contact.scss",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_contact.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_contact.scss",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-16T08:22:15.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T08:19:22.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T11:27:54.584Z"
+              "WhenOpened": "2024-04-16T08:12:45.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Courses\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Courses\\Details.cshtml",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Courses\\Details.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Courses\\Details.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T07:50:12.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_fonts.scss",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_fonts.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\cores\\_fonts.scss",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_fonts.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\cores\\_fonts.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-14T15:57:44.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_AccountProfile.cshtml",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Account\\_AccountProfile.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Account\\_AccountProfile.cshtml",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Account\\_AccountProfile.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Account\\_AccountProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:55:16.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_buttons.scss",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-14T15:34:34.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Account\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Account\\Details.cshtml",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Views\\Account\\Details.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Account\\Details.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:18:47.35Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AllowDeleteModel.cs",
-              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\Infrastructure\\Models\\AllowDeleteModel.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Models\\AllowDeleteModel.cs",
-              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\Infrastructure\\Models\\AllowDeleteModel.cs",
-              "RelativeToolTip": "Infrastructure\\Models\\AllowDeleteModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T11:24:14.194Z"
+              "Title": "_account-details.scss",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-details.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_account-details.scss",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-details.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_account-details.scss",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-14T15:11:19.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T11:23:00.432Z",
+              "DocumentIndex": 9,
+              "Title": "_account-avatar.scss",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-avatar.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\sections\\_account-avatar.scss",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-avatar.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\sections\\_account-avatar.scss",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-14T15:11:18.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_forms.scss",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_forms.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\components\\_forms.scss",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_forms.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\components\\_forms.scss",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAFUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-14T14:58:58.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Skola\\Asp-dotnet\\Assignment\\Studio\\Silicon\\WebApp\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowFQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-14T14:53:06.202Z",
               "EditorCaption": ""
             }
           ]
